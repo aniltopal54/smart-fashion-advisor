@@ -10,7 +10,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Gelen istek (Request) için Pydantic şeması
+
 # Kullanıcıdan alınacak JSON verisinin formatını ve tiplerini belirliyoruz
 class AnalizIstegi(BaseModel):
     kullanici_id: int
